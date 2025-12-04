@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: Users-jacobedwards-Downloads-point_cloud
+  m_EditorClassIdentifier: 
+  m_FormatVersion: 20231020
+  m_SplatCount: 1366003
+  m_BoundsMin: {x: -1.4825654, y: -0.27263063, z: -0.08554589}
+  m_BoundsMax: {x: 1.8547728, y: 0.3002033, z: -0.02730201}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 15612b7ed92860c5d9bc427c961840cf
+  m_PosFormat: 3
+  m_ScaleFormat: 3
+  m_SHFormat: 8
+  m_ColorFormat: 3
+  m_PosData: {fileID: 4900000, guid: fd69ca6a32dbb4e6897a8409a9cfb1d2, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 88941c809def4428588a86fd6a838a43, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 76003ffa8c82f4a51a5c910aa6a487b3, type: 3}
+  m_SHData: {fileID: 4900000, guid: 1ce6800d07bba48f69a5fd946697afd1, type: 3}
+  m_ChunkData: {fileID: 4900000, guid: c45f9cee2980941cebaa6cf18d46446a, type: 3}
+  m_Cameras: []
