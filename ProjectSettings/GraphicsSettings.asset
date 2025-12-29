@@ -37,14 +37,10 @@ GraphicsSettings:
   - {fileID: 16001, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 17000, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 16002, guid: 0000000000000000f000000000000000, type: 0}
-  - {fileID: 4800000, guid: ed800126ae8844a67aad1974ddddd59c, type: 3}
-  - {fileID: 4800000, guid: 7e184af7d01193a408eb916d8acafff9, type: 3}
-  - {fileID: 4800000, guid: 4006f2680fd7c8b4cbcb881454c782be, type: 3}
-  - {fileID: 4800000, guid: b44409fc67214394f8f47e4e2648425e, type: 3}
   m_PreloadedShaders: []
   m_PreloadShadersBatchTimeLimit: -1
   m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_CustomRenderPipeline: {fileID: 11400000, guid: fd42a132493b1f143a4963adcd530ef1, type: 2}
+  m_CustomRenderPipeline: {fileID: 11400000, guid: db6f17ab704719549a13bcc59208c17e, type: 2}
   m_TransparencySortMode: 0
   m_TransparencySortAxis: {x: 0, y: 0, z: 1}
   m_DefaultRenderingPath: 1
@@ -69,6 +65,6 @@ GraphicsSettings:
   m_LightsUseLinearIntensity: 1
   m_LightsUseColorTemperature: 1
   m_LogWhenShaderIsCompiled: 0
-  m_LightProbeOutsideHullStrategy: 0
+  m_LightProbeOutsideHullStrategy: 1
   m_CameraRelativeLightCulling: 0
   m_CameraRelativeShadowCulling: 0
