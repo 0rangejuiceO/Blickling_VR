@@ -1,5 +1,0 @@
-/Users/jacobedwards/dev/blickling/test/.utmp/RelWithDebInfo/3p5t1i60/arm64-v8a/CMakeFiles/edit_cache.dir
-/Users/jacobedwards/dev/blickling/test/.utmp/RelWithDebInfo/3p5t1i60/arm64-v8a/CMakeFiles/rebuild_cache.dir
-/Users/jacobedwards/dev/blickling/test/.utmp/RelWithDebInfo/3p5t1i60/arm64-v8a/GameActivity/CMakeFiles/game.dir
-/Users/jacobedwards/dev/blickling/test/.utmp/RelWithDebInfo/3p5t1i60/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
-/Users/jacobedwards/dev/blickling/test/.utmp/RelWithDebInfo/3p5t1i60/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
