@@ -6,7 +6,7 @@ How To Run as of 01/2026
 - Once it is built connect the HMD while in developer mode using meta quest link app and cable (Only tested with Meta Quest 3)
 - Run the exe and it should display both on your computer and in the HMD.
 
-Please let me know if this successfully runs with and other hardware as it has only been tested with:
+Please let me know if this successfully runs with any other hardware as it has only been tested with:
 - HMD: Meta Quest 3
 - Connection Method: Meta Quest Link App with Syntech USB A to USB C Cable
 - Operating System: Windows 11 Home 64-bit
