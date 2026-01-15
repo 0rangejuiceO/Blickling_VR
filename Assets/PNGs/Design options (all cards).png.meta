@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Design options (all cards)_0
+      name: MysteryofGodImage
       rect:
         serializedVersion: 2
         x: 58
@@ -145,7 +145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_1
+      name: MysteryOfGodText
       rect:
         serializedVersion: 2
         x: 1425
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_2
+      name: TalentImage
       rect:
         serializedVersion: 2
         x: 3198
@@ -189,7 +189,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_3
+      name: TalentText
       rect:
         serializedVersion: 2
         x: 4562
@@ -211,7 +211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_4
+      name: PromtheusImage
       rect:
         serializedVersion: 2
         x: 6388
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_5
+      name: PrometheusText
       rect:
         serializedVersion: 2
         x: 7755
@@ -255,7 +255,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_6
+      name: VirtueImage
       rect:
         serializedVersion: 2
         x: 9403
@@ -277,7 +277,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_7
+      name: VirtueText
       rect:
         serializedVersion: 2
         x: 10764
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_8
+      name: BeautyImage
       rect:
         serializedVersion: 2
         x: 15
@@ -321,7 +321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_9
+      name: BeautyText
       rect:
         serializedVersion: 2
         x: 1376
@@ -343,11 +343,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_10
+      name: CourageImage
       rect:
         serializedVersion: 2
-        x: 3037
-        y: 2670
+        x: 3029
+        y: 2662
         width: 1330
         height: 1873
       alignment: 0
@@ -365,7 +365,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_11
+      name: CourageText
       rect:
         serializedVersion: 2
         x: 4398
@@ -387,7 +387,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_12
+      name: WisdomImage
       rect:
         serializedVersion: 2
         x: 6363
@@ -409,7 +409,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_13
+      name: WisdomText
       rect:
         serializedVersion: 2
         x: 7730
@@ -431,7 +431,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_14
+      name: ExperienceTamesImage
       rect:
         serializedVersion: 2
         x: 9232
@@ -453,7 +453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_15
+      name: ExperienceTamesText
       rect:
         serializedVersion: 2
         x: 10593
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_16
+      name: CrownedHeadImage
       rect:
         serializedVersion: 2
         x: 34
@@ -497,7 +497,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_17
+      name: CrownedHeadText
       rect:
         serializedVersion: 2
         x: 1401
@@ -519,7 +519,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_18
+      name: LadiesInclinedToMarryImage
       rect:
         serializedVersion: 2
         x: 2988
@@ -541,7 +541,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_19
+      name: LadiesInclinedToMarryText
       rect:
         serializedVersion: 2
         x: 4349
@@ -563,7 +563,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_20
+      name: LearningImage
       rect:
         serializedVersion: 2
         x: 7657
@@ -585,7 +585,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Design options (all cards)_21
+      name: LearningText
       rect:
         serializedVersion: 2
         x: 9018
@@ -622,28 +622,28 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Design options (all cards)_0: -1525402007
-      Design options (all cards)_1: -1316944888
-      Design options (all cards)_10: -1781179752
-      Design options (all cards)_11: 1519364617
-      Design options (all cards)_12: -702787721
-      Design options (all cards)_13: 1862569677
-      Design options (all cards)_14: -1470531478
-      Design options (all cards)_15: -387295497
-      Design options (all cards)_16: -1829113007
-      Design options (all cards)_17: 1055240165
-      Design options (all cards)_18: -536397484
-      Design options (all cards)_19: 1045082657
-      Design options (all cards)_2: -1887419618
-      Design options (all cards)_20: -562905707
-      Design options (all cards)_21: 1574287636
-      Design options (all cards)_3: -745750389
-      Design options (all cards)_4: -1962376442
-      Design options (all cards)_5: 1662183745
-      Design options (all cards)_6: 141573041
-      Design options (all cards)_7: 1182702041
-      Design options (all cards)_8: -493432983
-      Design options (all cards)_9: 1355756057
+      BeautyImage: -493432983
+      BeautyText: 1355756057
+      CourageImage: -1781179752
+      CourageText: 1519364617
+      CrownedHeadImage: -1829113007
+      CrownedHeadText: 1055240165
+      ExperienceTamesImage: -1470531478
+      ExperienceTamesText: -387295497
+      LadiesInclinedToMarryImage: -536397484
+      LadiesInclinedToMarryText: 1045082657
+      LearningImage: -562905707
+      LearningText: 1574287636
+      MysteryOfGodText: -1316944888
+      MysteryofGodImage: -1525402007
+      PrometheusText: 1662183745
+      PromtheusImage: -1962376442
+      TalentImage: -1887419618
+      TalentText: -745750389
+      VirtueImage: 141573041
+      VirtueText: 1182702041
+      WisdomImage: -702787721
+      WisdomText: 1862569677
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

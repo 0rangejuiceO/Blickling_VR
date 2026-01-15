@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\newpointofinterest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\university\\final year project\\blickling_vr2026\\blicking_vr\\assets\\pointofinterest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\pointofinterest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\university\\final year project\\blickling_vr2026\\blicking_vr\\assets\\closeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\closeui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\university\\final year project\\blickling_vr2026\\blicking_vr\\assets\\pointofinterest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\pointofinterest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CloseUI.cs",
               "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\CloseUI.cs",
               "RelativeDocumentMoniker": "Assets\\CloseUI.cs",
@@ -39,28 +39,27 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PointOfInterest.cs",
+              "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\PointOfInterest.cs",
+              "RelativeDocumentMoniker": "Assets\\PointOfInterest.cs",
+              "ToolTip": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\PointOfInterest.cs",
+              "RelativeToolTip": "Assets\\PointOfInterest.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAiwLUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T10:22:13.408Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "NewPointOfInterest.cs",
               "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\NewPointOfInterest.cs",
               "RelativeDocumentMoniker": "Assets\\NewPointOfInterest.cs",
               "ToolTip": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\NewPointOfInterest.cs",
               "RelativeToolTip": "Assets\\NewPointOfInterest.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowFIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-13T12:50:52.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PointOfInterest.cs",
-              "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\PointOfInterest.cs",
-              "RelativeDocumentMoniker": "Assets\\PointOfInterest.cs",
-              "ToolTip": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\PointOfInterest.cs",
-              "RelativeToolTip": "Assets\\PointOfInterest.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAmwMcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T09:43:58.177Z",
               "EditorCaption": ""
             }
           ]
