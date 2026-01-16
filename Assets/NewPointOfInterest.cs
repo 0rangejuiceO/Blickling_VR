@@ -28,6 +28,8 @@ public class NewPointOfInterest : MonoBehaviour
     [SerializeField] private float rotateDuration = 0.4f;
     [SerializeField] private bool doDoTween = true;
 
+    private bool preLoadMotif = false;
+
     private int currentCard = 0;
     private Transform motifHolder;
 
@@ -42,6 +44,11 @@ public class NewPointOfInterest : MonoBehaviour
 
     private void Start()
     {
+        POIHandler motifHandler = GameObject.Find("MotifLocation").GetComponent<POIHandler>();
+        if (motifHandler.preLoadPOIs)
+        {
+            preLoadMotif = true;
+        }
 
         grabInteractable.selectEntered.AddListener(OnSelectEntered);
 
@@ -54,6 +61,21 @@ public class NewPointOfInterest : MonoBehaviour
 
             pointOfInterest.transform.position = poiPosition;
             pointOfInterest.transform.rotation = Quaternion.Euler(new Vector3(0, 0, 0));
+        }
+
+        if(preLoadMotif)
+        {
+            if (!motifPrefab)
+            {
+                Debug.LogError("Pre Load failed due to: Motif prefab is not assigned");
+                return;
+            }
+            motifHolder = GameObject.Find("MotifLocation").GetComponent<Transform>();
+            pointOfInterest = Instantiate(motifPrefab, motifHolder);
+            pointOfInterest.SetActive(false);
+            pointOfInterest.transform.localPosition = Vector3.zero;
+            pointOfInterest.transform.localRotation = Quaternion.identity;
+            pointOfInterest.transform.localScale = Vector3.one;
         }
 
     }
@@ -122,9 +144,16 @@ public class NewPointOfInterest : MonoBehaviour
 
         Button uiCloseButtonBtn = uiCloseButton.GetComponent<Button>();
         uiCloseButtonBtn.onClick.RemoveAllListeners();
-        uiCloseButtonBtn.onClick.AddListener(removeMotifObject);
+        if (preLoadMotif)
+        {
+            uiCloseButtonBtn.onClick.AddListener(hideMotifObject);
+        }
+        else
+        {
+            uiCloseButtonBtn.onClick.AddListener(removeMotifObject);
+        }
 
-        if (motifHolder.childCount > 0)
+        if (motifHolder.childCount > 0 && !preLoadMotif)
         {
             for (int i = motifHolder.childCount - 1; i >= 0; i--)
             {
@@ -153,6 +182,12 @@ public class NewPointOfInterest : MonoBehaviour
 
 
             poiShowSequence.Play();
+        }
+        else if(preLoadMotif)
+        {
+            POIHandler motifHandler = GameObject.Find("MotifLocation").GetComponent<POIHandler>();
+            motifHandler.SetCurrentPOI(pointOfInterest);
+
         }
         else
         {
@@ -193,6 +228,12 @@ public class NewPointOfInterest : MonoBehaviour
     public void removeMotifObject()
     {
         Destroy(motifHolder.GetChild(0).gameObject);
+    }
+
+    public void hideMotifObject()
+    {
+        POIHandler motifHandler = GameObject.Find("MotifLocation").GetComponent<POIHandler>();
+        motifHandler.SetCurrentPOI(null,true);
     }
 
 }
