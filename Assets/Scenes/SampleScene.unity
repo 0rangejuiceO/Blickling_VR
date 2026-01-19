@@ -150,7 +150,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1714526469}
-  m_Father: {fileID: 1973719985}
+  m_Father: {fileID: 2099267309}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &27135009
 MonoBehaviour:
@@ -176,6 +176,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &40563688
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,7 +734,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewPointOfInterest
   grabInteractable: {fileID: 1717281122}
-  infoCards: []
+  infoCards:
+  - {fileID: -736262227, guid: fd89476dba32b6f45b1a1a2d9f9f04e9, type: 3}
   uiElement: {fileID: 789070139}
   uiCard: {fileID: 1126585293}
   uiCloseButton: {fileID: 1405799585}
@@ -740,6 +745,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!43 &185276517
 Mesh:
   m_ObjectHideFlags: 0
@@ -1580,6 +1589,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!43 &255757272
 Mesh:
   m_ObjectHideFlags: 0
@@ -1940,16 +1953,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewPointOfInterest
   grabInteractable: {fileID: 1884655425}
-  infoCards: []
+  infoCards:
+  - {fileID: 1731008735, guid: 0d6f430ac217e61419241bbf89a8b6d1, type: 3}
   uiElement: {fileID: 789070139}
   uiCard: {fileID: 1126585293}
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 9035144934281696433, guid: 13a4acb8c825f0343990cd22cd647d94, type: 3}
+  motifPrefab: {fileID: 9035144934281696433, guid: 0b5a3a7e53f8d8a43b850af410f7c208, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!43 &368860748
 Mesh:
   m_ObjectHideFlags: 0
@@ -3320,7 +3338,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewPointOfInterest
   grabInteractable: {fileID: 2068744844}
-  infoCards: []
+  infoCards:
+  - {fileID: -2020953610, guid: 72c568a51c834164bb28184184bf9c26, type: 3}
   uiElement: {fileID: 789070139}
   uiCard: {fileID: 1126585293}
   uiCloseButton: {fileID: 1405799585}
@@ -3330,6 +3349,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &423529120
 GameObject:
   m_ObjectHideFlags: 0
@@ -3949,6 +3972,68 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &439580514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 439580515}
+  - component: {fileID: 439580516}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &439580515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439580514}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 5.81757, y: 3.05707, z: 12.9462805}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 990569195}
+  m_Father: {fileID: 1715793436}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &439580516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439580514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12d929a7f62c48adbe9ff45c9a33ff0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatRenderer
+  m_Asset: {fileID: 11400000, guid: 3fabed6ac35912a42b1d0325be8776a0, type: 2}
+  m_RenderOrder: 0
+  m_SplatScale: 1
+  m_OpacityScale: 1
+  m_SHOrder: 3
+  m_SHOnly: 0
+  m_SortNthFrame: 120
+  m_SortOnRotation: 90
+  m_RenderMode: 0
+  m_PointDisplaySize: 3
+  m_Cutouts:
+  - {fileID: 990569196}
+  m_ShaderSplats: {fileID: 4800000, guid: ed800126ae8844a67aad1974ddddd59c, type: 3}
+  m_ShaderComposite: {fileID: 4800000, guid: 7e184af7d01193a408eb916d8acafff9, type: 3}
+  m_ShaderDebugPoints: {fileID: 4800000, guid: b44409fc67214394f8f47e4e2648425e, type: 3}
+  m_ShaderDebugBoxes: {fileID: 4800000, guid: 4006f2680fd7c8b4cbcb881454c782be, type: 3}
+  m_CSSplatUtilities: {fileID: 7200000, guid: ec84f78b836bd4f96a105d6b804f08bd, type: 3}
 --- !u!43 &465102248
 Mesh:
   m_ObjectHideFlags: 0
@@ -4127,6 +4212,17 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!114 &466883945 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 73949512329761232, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+  m_PrefabInstance: {fileID: 2779669268269126897}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f365cf844c03449bc8973eead2c3c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &467077741
 GameObject:
   m_ObjectHideFlags: 0
@@ -5992,6 +6088,142 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &601380040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 601380041}
+  - component: {fileID: 601380043}
+  - component: {fileID: 601380042}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &601380041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601380040}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.03, y: -0, z: 4.82}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1965470879}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &601380042
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601380040}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.5, y: 0.01, z: 18}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &601380043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601380040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f6bf3d943ac7945842268c9ef1dca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation.TeleportationArea
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 601380042}
+  m_InteractionLayers:
+    m_Bits: 4294967295
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 1
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_TeleportationProvider: {fileID: 2779669268269126899}
+  m_MatchOrientation: 0
+  m_MatchDirectionalInput: 0
+  m_TeleportTrigger: 0
+  m_FilterSelectionByHitNormal: 0
+  m_UpNormalToleranceDegrees: 30
+  m_Teleporting:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &610590590
 GameObject:
   m_ObjectHideFlags: 0
@@ -6493,6 +6725,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &666703987
 GameObject:
   m_ObjectHideFlags: 0
@@ -6760,10 +6996,14 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 0}
+  motifPrefab: {fileID: 9035144934281696433, guid: b46f51635c478384ba2517e31f6749f1, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &678708039
 GameObject:
   m_ObjectHideFlags: 0
@@ -6818,10 +7058,14 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 0}
+  motifPrefab: {fileID: 9035144934281696433, guid: 7fca0dc1717d6c94095070c1bd5af916, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &687521897
 GameObject:
   m_ObjectHideFlags: 0
@@ -6880,6 +7124,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &720522092
 GameObject:
   m_ObjectHideFlags: 0
@@ -7258,6 +7506,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!43 &724769833
 Mesh:
   m_ObjectHideFlags: 0
@@ -7494,6 +7746,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &742359857
 GameObject:
   m_ObjectHideFlags: 0
@@ -7520,12 +7776,12 @@ Transform:
   m_GameObject: {fileID: 742359857}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.475, y: 0, z: 6.576}
+  m_LocalPosition: {x: -0.47500002, y: 0, z: 6.576}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1571848813}
-  m_Father: {fileID: 1973719985}
+  m_Father: {fileID: 2099267309}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &742359859
 MonoBehaviour:
@@ -7551,6 +7807,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &752797605
 GameObject:
   m_ObjectHideFlags: 0
@@ -7577,12 +7837,12 @@ Transform:
   m_GameObject: {fileID: 752797605}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.223, y: 0, z: 3.263}
+  m_LocalPosition: {x: -0.22300005, y: 0, z: 3.263}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 99989827}
-  m_Father: {fileID: 1973719985}
+  m_Father: {fileID: 2099267309}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &752797607
 MonoBehaviour:
@@ -7608,6 +7868,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &758626682
 GameObject:
   m_ObjectHideFlags: 0
@@ -9379,10 +9643,14 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 0}
+  motifPrefab: {fileID: 9035144934281696433, guid: 27727c6e0a36bdb48ba189f61a57a393, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &907083826
 GameObject:
   m_ObjectHideFlags: 0
@@ -9441,6 +9709,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!43 &924875303
 Mesh:
   m_ObjectHideFlags: 0
@@ -9645,12 +9917,12 @@ Transform:
   m_GameObject: {fileID: 925090869}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.258, y: 0, z: -3.397}
+  m_LocalPosition: {x: 0.25800002, y: 0, z: -3.397}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 428219561}
-  m_Father: {fileID: 1973719985}
+  m_Father: {fileID: 2099267309}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &925090871
 MonoBehaviour:
@@ -9676,6 +9948,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!43 &928994867
 Mesh:
   m_ObjectHideFlags: 0
@@ -11351,6 +11627,7 @@ GameObject:
   m_Component:
   - component: {fileID: 986725961}
   - component: {fileID: 986725962}
+  - component: {fileID: 986725963}
   m_Layer: 0
   m_Name: MotifLocation
   m_TagString: Untagged
@@ -11366,13 +11643,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 986725960}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.6819983, z: 0, w: 0.7313538}
-  m_LocalPosition: {x: -2.715, y: 1.24, z: 4.397}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6000001, y: 0.6, z: 0.6000001}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 86, z: 0}
+  m_Father: {fileID: 1305345601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &986725962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11386,6 +11663,78 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::POIHandler
   preLoadPOIs: 1
+--- !u!114 &986725963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986725960}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf592837a712be408081e377c095a31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LimitedObjectRotation
+  rotationSpeed: 60
+  maxAngle: 30
+  rotateInput:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Rotate Input
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 86e57268-2168-4b6d-8e88-3894d9856c90
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -6563055427405493044, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+--- !u!1 &990569194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 990569195}
+  - component: {fileID: 990569196}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &990569195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990569194}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.17913213, z: -0, w: 0.983825}
+  m_LocalPosition: {x: 1.27, y: -1.07, z: -4.13}
+  m_LocalScale: {x: 6, y: 3, z: 20}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 439580515}
+  m_LocalEulerAnglesHint: {x: 0, y: -20.638, z: 0}
+--- !u!114 &990569196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 990569194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c57a1c501bd05549ae157cc474bd4c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianCutout
+  m_Type: 1
+  m_Invert: 0
 --- !u!1 &996131981
 GameObject:
   m_ObjectHideFlags: 0
@@ -12001,6 +12350,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &1041276779
 GameObject:
   m_ObjectHideFlags: 0
@@ -12055,10 +12408,14 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 9035144934281696433, guid: fd9818cb7200b6a4ab092ddaa0931f64, type: 3}
+  motifPrefab: {fileID: 9035144934281696433, guid: fb0fe1ae5609c6341a15e353d547086b, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &1050579822
 GameObject:
   m_ObjectHideFlags: 0
@@ -12991,10 +13348,14 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 9035144934281696433, guid: bee63ffe2788523418912db646619140, type: 3}
+  motifPrefab: {fileID: 9035144934281696433, guid: 2b95bd50cfbe11d4bb2b536ee295963e, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &1118899367
 GameObject:
   m_ObjectHideFlags: 0
@@ -13189,6 +13550,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &1126585291
 GameObject:
   m_ObjectHideFlags: 0
@@ -13887,10 +14252,14 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 0}
+  motifPrefab: {fileID: 9035144934281696433, guid: 3c950dd4c779eda4789e1de39e5c166e, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!43 &1198096471
 Mesh:
   m_ObjectHideFlags: 0
@@ -14685,10 +15054,14 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 0}
+  motifPrefab: {fileID: 9035144934281696433, guid: d96a5f68e2a723c48b71a913388fb495, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1001 &1241364534
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16178,6 +16551,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5696248676844869673, guid: c8e09f70004b34f87a1734020b1ec540, type: 3}
       insertIndex: 1
       addedObject: {fileID: 525938024}
+    - targetCorrespondingSourceObject: {fileID: 7091992856236030605, guid: c8e09f70004b34f87a1734020b1ec540, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 601380041}
     - targetCorrespondingSourceObject: {fileID: 4840148208354799674, guid: c8e09f70004b34f87a1734020b1ec540, type: 3}
       insertIndex: 5
       addedObject: {fileID: 1516499416}
@@ -16907,6 +17283,38 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &1305345599
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1305345601}
+  m_Layer: 0
+  m_Name: MotifHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1305345601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305345599}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.6819983, z: 0, w: 0.7313538}
+  m_LocalPosition: {x: -2.528, y: 1.24, z: 4.401}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 986725961}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 86, z: 0}
 --- !u!43 &1306165436
 Mesh:
   m_ObjectHideFlags: 0
@@ -17176,10 +17584,14 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 9035144934281696433, guid: b227483db656e5141bc53e320e9b8b86, type: 3}
+  motifPrefab: {fileID: 9035144934281696433, guid: a905857fa761861408be7eec8f4ac8a2, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &1335485201
 GameObject:
   m_ObjectHideFlags: 0
@@ -17195,7 +17607,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1335485202
 Transform:
   m_ObjectHideFlags: 0
@@ -17242,6 +17654,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 1
+  teleportProvider: {fileID: 0}
+  rightNearFarInteractor: {fileID: 0}
+  snapTurnProvider: {fileID: 0}
+  rotationController: {fileID: 0}
 --- !u!1 &1360091884
 GameObject:
   m_ObjectHideFlags: 0
@@ -17300,6 +17716,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!114 &1382853302 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8315720654046046167, guid: c8e09f70004b34f87a1734020b1ec540, type: 3}
@@ -17568,6 +17988,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!43 &1416444901
 Mesh:
   m_ObjectHideFlags: 0
@@ -18271,6 +18695,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!43 &1497293861
 Mesh:
   m_ObjectHideFlags: 0
@@ -20739,16 +21167,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewPointOfInterest
   grabInteractable: {fileID: 854132103}
-  infoCards: []
+  infoCards:
+  - {fileID: 362195497, guid: 545cd011ade0dca4e8b5ccc4af80fd07, type: 3}
   uiElement: {fileID: 789070139}
   uiCard: {fileID: 1126585293}
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 0}
+  motifPrefab: {fileID: 9035144934281696433, guid: f1531dcc328c15d45a92466d87b13669, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &1661400387
 GameObject:
   m_ObjectHideFlags: 0
@@ -20795,7 +21228,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewPointOfInterest
   grabInteractable: {fileID: 1944167947}
-  infoCards: []
+  infoCards:
+  - {fileID: -839610748, guid: 7317c91df4e4ca641aad554dd6e7a716, type: 3}
   uiElement: {fileID: 789070139}
   uiCard: {fileID: 1126585293}
   uiCloseButton: {fileID: 1405799585}
@@ -20805,6 +21239,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &1666387969
 GameObject:
   m_ObjectHideFlags: 0
@@ -21147,10 +21585,14 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 0}
+  motifPrefab: {fileID: 9035144934281696433, guid: e33004d228c7e5f4d81208dc8cea1977, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!43 &1685969758
 Mesh:
   m_ObjectHideFlags: 0
@@ -21370,6 +21812,10 @@ MonoBehaviour:
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!4 &1700299851
 Transform:
   m_ObjectHideFlags: 0
@@ -21384,7 +21830,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 815849830}
-  m_Father: {fileID: 1973719985}
+  m_Father: {fileID: 2099267309}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1703568385
 GameObject:
@@ -21634,6 +22080,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714526468}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1715793435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1715793436}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1715793436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715793435}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.21507582, z: -0, w: 0.97659737}
+  m_LocalPosition: {x: -1.5, y: -0.97, z: -0.32}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 439580515}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -24.84, z: 0}
 --- !u!1 &1717281120
 GameObject:
   m_ObjectHideFlags: 0
@@ -22365,10 +22843,14 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 0}
+  motifPrefab: {fileID: 9035144934281696433, guid: d8401dc6382718941815ddeb7c9236e4, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
+  teleportProvider: {fileID: 2779669268269126899}
+  rightNearFarInteractor: {fileID: 2779669268269126898}
+  snapTurnProvider: {fileID: 466883945}
+  rotationController: {fileID: 986725963}
 --- !u!1 &1815318735
 GameObject:
   m_ObjectHideFlags: 0
@@ -23669,42 +24151,11 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
---- !u!1 &1973719984
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1973719985}
-  m_Layer: 0
-  m_Name: Shields
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1973719985
+--- !u!4 &1965470879 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7091992856236030605, guid: c8e09f70004b34f87a1734020b1ec540, type: 3}
+  m_PrefabInstance: {fileID: 1241364534}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973719984}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1700299851}
-  - {fileID: 752797606}
-  - {fileID: 742359858}
-  - {fileID: 925090870}
-  - {fileID: 27135008}
-  m_Father: {fileID: 2099267309}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2027733594
 GameObject:
   m_ObjectHideFlags: 0
@@ -24729,7 +25180,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1973719985}
   - {fileID: 1799923822}
   - {fileID: 1120182685}
   - {fileID: 1410388441}
@@ -24756,6 +25206,11 @@ Transform:
   - {fileID: 687521898}
   - {fileID: 1041276780}
   - {fileID: 413149385}
+  - {fileID: 1700299851}
+  - {fileID: 752797606}
+  - {fileID: 742359858}
+  - {fileID: 925090870}
+  - {fileID: 27135008}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2102629066
@@ -25523,6 +25978,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+--- !u!114 &2779669268269126898 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9141569775962405776, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+  m_PrefabInstance: {fileID: 2779669268269126897}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a07ef133a37d140a87cdf1f1c75fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2779669268269126899 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8988371223026793012, guid: 77e7c27b2c5525e4aa8cc9f99d654486, type: 3}
+  m_PrefabInstance: {fileID: 2779669268269126897}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -25534,6 +26011,7 @@ SceneRoots:
   - {fileID: 789070140}
   - {fileID: 1335485202}
   - {fileID: 2099267309}
-  - {fileID: 986725961}
   - {fileID: 1818896553}
   - {fileID: 1592246958}
+  - {fileID: 1305345601}
+  - {fileID: 1715793436}

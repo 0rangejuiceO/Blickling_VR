@@ -5,6 +5,9 @@ using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.UI;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR.Interaction.Toolkit.Interactables;
+using UnityEngine.XR.Interaction.Toolkit.Interactors;
+using UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation;
+using UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning;
 
 public class NewPointOfInterest : MonoBehaviour
 {
@@ -28,7 +31,16 @@ public class NewPointOfInterest : MonoBehaviour
     [SerializeField] private float rotateDuration = 0.4f;
     [SerializeField] private bool doDoTween = true;
 
+    [Header("XR References")]
+    public TeleportationProvider teleportProvider;
+    public NearFarInteractor rightNearFarInteractor;
+    public SnapTurnProvider snapTurnProvider;
+
+    [Header("Rotation Script")]
+    public LimitedObjectRotation rotationController;
+
     private bool preLoadMotif = false;
+    private bool inspectionActive;
 
     private int currentCard = 0;
     private Transform motifHolder;
@@ -78,6 +90,45 @@ public class NewPointOfInterest : MonoBehaviour
             pointOfInterest.transform.localScale = Vector3.one;
         }
 
+    }
+
+    public void EnterInspectionMode()
+    {
+        inspectionActive = true;
+
+        // Disable teleport system
+        if (teleportProvider != null)
+            teleportProvider.enabled = false;
+
+        // Disable right-hand ray / far interaction
+        //if (rightNearFarInteractor != null)
+            //rightNearFarInteractor.enabled = false;
+
+        if(snapTurnProvider != null)
+            snapTurnProvider.enabled = false;
+
+        // Enable rotation
+        if (rotationController != null)
+            rotationController.enabled = true;
+
+  
+    }
+
+    public void ExitInspectionMode()
+    {
+        inspectionActive = false;
+
+        if (teleportProvider != null)
+            teleportProvider.enabled = true;
+
+        if (rightNearFarInteractor != null)
+            rightNearFarInteractor.enabled = true;
+
+        if(snapTurnProvider != null)
+            snapTurnProvider.enabled = true;
+
+        if (rotationController != null)
+            rotationController.enabled = false;
     }
 
     private void OnSelectEntered(SelectEnterEventArgs args)
@@ -144,6 +195,7 @@ public class NewPointOfInterest : MonoBehaviour
 
         Button uiCloseButtonBtn = uiCloseButton.GetComponent<Button>();
         uiCloseButtonBtn.onClick.RemoveAllListeners();
+        uiCloseButtonBtn.onClick.AddListener(ExitInspectionMode);
         if (preLoadMotif)
         {
             uiCloseButtonBtn.onClick.AddListener(hideMotifObject);
@@ -198,6 +250,7 @@ public class NewPointOfInterest : MonoBehaviour
             motif.transform.localScale = Vector3.one;
         }
 
+        EnterInspectionMode();
 
     }
 
