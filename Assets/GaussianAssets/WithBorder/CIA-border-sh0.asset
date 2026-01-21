@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: CIA-border-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 1741531
+  m_BoundsMin: {x: -12.162916, y: -2.4685721, z: -17.414772}
+  m_BoundsMax: {x: 13.29374, y: 1.6644577, z: 8.014704}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 34a06d9118e2b17cba75683666e9d27c
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 9036ec0d73578ab4fa4f0ac93f2c473e, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 16b2e344fe13e4a4c86dd85a1fe87c59, type: 3}
+  m_OtherData: {fileID: 4900000, guid: b940301c76c2b7843942d46bf343b64b, type: 3}
+  m_SHData: {fileID: 4900000, guid: ac7ac259b1618ee4e974d9f9b01606b5, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

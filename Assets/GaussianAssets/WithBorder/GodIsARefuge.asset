@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: GodIsARefuge
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 458786
+  m_BoundsMin: {x: -15.729934, y: -4.8481197, z: -12.465413}
+  m_BoundsMax: {x: 15.79896, y: 4.8822937, z: 19.908916}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 6a82a94eb952502cdf41f638e8af2223
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: e73111f468d315144b8a7b6db685e943, type: 3}
+  m_ColorData: {fileID: 4900000, guid: c05d1a2e4b12012498a83d6a781472d5, type: 3}
+  m_OtherData: {fileID: 4900000, guid: c3bcf72136883954fbf5d7350ad6375c, type: 3}
+  m_SHData: {fileID: 4900000, guid: f36b9be7ade3ada4b9042bdcf1d7539e, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

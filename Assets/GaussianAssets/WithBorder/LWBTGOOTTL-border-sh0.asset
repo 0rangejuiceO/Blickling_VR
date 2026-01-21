@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: LWBTGOOTTL-border-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 2609933
+  m_BoundsMin: {x: -13.038282, y: -4.1601963, z: -14.818249}
+  m_BoundsMax: {x: 13.034768, y: 1.808683, z: 10.954776}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 7f87352b08fe8a3eb1c78bb06c21a113
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: cc63fa87664f0c24d97e28c1c2ace1e3, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 5d531ca11cfde8e4cafafd6879531cf0, type: 3}
+  m_OtherData: {fileID: 4900000, guid: bb51c30f75460604983774637b2f6df8, type: 3}
+  m_SHData: {fileID: 4900000, guid: b0e443206495c8045989d6f01cebfad9, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

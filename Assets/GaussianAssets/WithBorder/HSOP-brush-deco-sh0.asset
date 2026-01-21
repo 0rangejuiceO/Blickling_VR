@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: HSOP-brush-deco-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 430600
+  m_BoundsMin: {x: -14.894155, y: -4.684066, z: -20.52611}
+  m_BoundsMax: {x: 16.11326, y: 2.225271, z: 10.572918}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: b82dffb2f40e45e47895aa6378e22f06
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 5629aa62b3739ea4dbb1fdd92d589381, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 4eea2118177cdb741b9ff915ba068198, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 94866691dec77644eb4114e92edb8b20, type: 3}
+  m_SHData: {fileID: 4900000, guid: 452ff5d667ad161439f004f258ed0872, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: TFNC-border-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 961776
+  m_BoundsMin: {x: -9.293163, y: -1.4109095, z: -3.014368}
+  m_BoundsMax: {x: 4.2734904, y: 0.46793926, z: 8.119993}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: da592d9d7347bc31f382d942a7bd49ff
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 4b58dcf7ee037b247b476779033f3910, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 7fc6853ad26b11449b7e883ab7cc28f8, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 1799e3455798f594ca14750db2ce9367, type: 3}
+  m_SHData: {fileID: 4900000, guid: 120828a46a78e4349bdd1ed67959a8ed, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

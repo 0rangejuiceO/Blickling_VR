@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: brush-ETTEOY-deco-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 183560
+  m_BoundsMin: {x: -10.264685, y: -2.9922965, z: -14.949546}
+  m_BoundsMax: {x: 20.883873, y: 0.18613073, z: 16.131521}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 8d3b9bb13e79d4d3d5863fae14cd47c4
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 9d2d67741f9bcf741bc2e788e3ec9968, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 93c388ccd23d0724aa526da70642644b, type: 3}
+  m_OtherData: {fileID: 4900000, guid: caa1984b310bcb7448f73190135889a6, type: 3}
+  m_SHData: {fileID: 4900000, guid: f7b59d137c00403478e81fb22ba26524, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

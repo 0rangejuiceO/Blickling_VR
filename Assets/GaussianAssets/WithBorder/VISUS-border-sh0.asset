@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: VISUS-border-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 2468836
+  m_BoundsMin: {x: -14.339005, y: -3.685938, z: -11.841991}
+  m_BoundsMax: {x: 7.937307, y: 0.65104955, z: 11.020092}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 266f3479c3f48ac2a8069fafdbd4f82d
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 5f7f87768c0ce604193366e3e1c7431d, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 139f110a68a1bfc4c9b0c3e60041d0c6, type: 3}
+  m_OtherData: {fileID: 4900000, guid: c46544d6e9882b14da9ca226f7b488fe, type: 3}
+  m_SHData: {fileID: 4900000, guid: 95df4dcdeca08424db70673db0123655, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

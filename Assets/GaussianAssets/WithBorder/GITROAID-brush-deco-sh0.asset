@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: GITROAID-brush-deco-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 455687
+  m_BoundsMin: {x: -16.28988, y: -2.2476048, z: -12.275803}
+  m_BoundsMax: {x: 15.697291, y: 0.9979184, z: 19.616657}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: ca0a4a9ea1a32d1fbd61baa83db6eff4
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: fc93b01daffadc240b4bf4d7abb9bfb4, type: 3}
+  m_ColorData: {fileID: 4900000, guid: b5ee868196c7b1e4caccb6d9a3956ddd, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 865e6818174e71e47be29c1b2c311fb2, type: 3}
+  m_SHData: {fileID: 4900000, guid: 689192b864c05d24f9cb7ac975e70db2, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

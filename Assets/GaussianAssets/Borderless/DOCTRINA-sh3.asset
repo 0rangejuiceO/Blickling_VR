@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: DOCTRINA-sh3
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 2156828
+  m_BoundsMin: {x: -10.798429, y: -3.9735506, z: -11.93492}
+  m_BoundsMax: {x: 11.371122, y: 0.38625303, z: 10.476553}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 4c10f2e6446439c3e65cfdf1632eab3f
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 65a242a06060ed748a74c236a27b1d34, type: 3}
+  m_ColorData: {fileID: 4900000, guid: efc04b8b799dddf45bc324efa80bb03d, type: 3}
+  m_OtherData: {fileID: 4900000, guid: feda78874ed21ab4eaa0116f24500a9c, type: 3}
+  m_SHData: {fileID: 4900000, guid: beca19645d9dea54abf03f3891432aa4, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

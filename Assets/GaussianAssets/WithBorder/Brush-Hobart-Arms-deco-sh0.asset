@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: Brush-Hobart-Arms-deco-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 277633
+  m_BoundsMin: {x: -19.89174, y: -30.898872, z: -18.967085}
+  m_BoundsMax: {x: 18.625994, y: 0.58502257, z: 20.787134}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 65e00e54b0aeec7238605c36bbb2050b
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: bda9e3c39a36c5f4989c79a5b817788c, type: 3}
+  m_ColorData: {fileID: 4900000, guid: e7f6e32d358fa1349a50ad61fb1662ed, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 006b79e2f92352a49884c9504f271817, type: 3}
+  m_SHData: {fileID: 4900000, guid: 33475bb810bed6d47a3ee8c6fee86b78, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

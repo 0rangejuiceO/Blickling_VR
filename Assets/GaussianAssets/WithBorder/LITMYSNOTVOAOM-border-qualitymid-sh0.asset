@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: LITMYSNOTVOAOM-border-qualitymid-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 1802177
+  m_BoundsMin: {x: -10.267248, y: -3.834621, z: -4.7651906}
+  m_BoundsMax: {x: 9.8877, y: 0.38216844, z: 15.450402}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: b3692c60cb30737a9d8ea092aa34217f
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 7ca9159f54fcd8c46b433c03c9a73e24, type: 3}
+  m_ColorData: {fileID: 4900000, guid: d7a812872e1312144bb6a177eabca654, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 1d1b92831a1cfc54198aedf8d53c99fb, type: 3}
+  m_SHData: {fileID: 4900000, guid: 0b52487807b2cb5459aed0af41fa3218, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

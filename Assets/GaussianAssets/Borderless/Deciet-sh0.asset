@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: Deciet-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 1939193
+  m_BoundsMin: {x: -16.025476, y: -5.3310843, z: -10.099342}
+  m_BoundsMax: {x: 7.8962364, y: 0.43091542, z: 13.592258}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 16ac980387e3b4a44be0e3b32f92df31
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 43c546f6306f68d4ba5c7bd94fc40245, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 9192bd606a1f0404ea4562e750d49365, type: 3}
+  m_OtherData: {fileID: 4900000, guid: a2a68a9e23fe3b2459059c599a657a95, type: 3}
+  m_SHData: {fileID: 4900000, guid: a0aca038072fa29459c52a8fef5920ac, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

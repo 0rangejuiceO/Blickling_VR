@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: gustus-brush-deco-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 373767
+  m_BoundsMin: {x: -14.187964, y: -2.2884722, z: -13.894863}
+  m_BoundsMax: {x: 13.766641, y: 0.85528755, z: 14.430043}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 5be0911880ca462a175b977b47e130dd
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 4033af12f5ff8074da9450c0fffba164, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 44270138b1076e4418efd80e7d652e15, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 07cae4d1818dc114787fd75eef248385, type: 3}
+  m_SHData: {fileID: 4900000, guid: 45942d464cc99634b858bee80e5d48b4, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

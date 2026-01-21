@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: Visus(sight)
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 114284
+  m_BoundsMin: {x: -2.244524, y: -29.890614, z: -12.13897}
+  m_BoundsMax: {x: 4.4908037, y: -1.5209715, z: -5.6557918}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: b9f4579a7b6b264c6a6a72c027c8ebd5
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: cd20566ace82f86499914556e80e941e, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 561fa27f565ff294d8e36c3b33ed3e3e, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 43845dd42b58f2346b2a0f415983a69e, type: 3}
+  m_SHData: {fileID: 4900000, guid: 6d04422a4ed303e48bf4effaf1c6d4b8, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

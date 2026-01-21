@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: Beauty-deco-bumpy-bad-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 3825310
+  m_BoundsMin: {x: -9.512339, y: -4.251505, z: -12.939007}
+  m_BoundsMax: {x: 14.146553, y: 1.5539912, z: 11.015768}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 37fb43b0ee0d49e7541ab66bd51ea176
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: a397eb56b644092479d3e7b2dea47189, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 4b7ea44ad3a98714c9f6f1811ee6ca18, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 2a5c769a141d2534dabc7f2bed984808, type: 3}
+  m_SHData: {fileID: 4900000, guid: 6edd35781b603164d86ee2923f20b286, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

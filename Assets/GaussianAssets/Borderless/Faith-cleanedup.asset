@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: Faith-cleanedup
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 4448673
+  m_BoundsMin: {x: -8.857311, y: -3.8528037, z: -14.174402}
+  m_BoundsMax: {x: 23.254013, y: 26.722569, z: 16.599865}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: ed18689794ac87635a0e83d8c2d2407c
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 124b16d58bb51c34aa6b6c521b46b88b, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 792b0bfe83627f54ca9bfc3327e9e06d, type: 3}
+  m_OtherData: {fileID: 4900000, guid: cb97b931a6dc47b41bb838197d62059f, type: 3}
+  m_SHData: {fileID: 4900000, guid: bbfd8e8e6d95b76459e93830cd277069, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

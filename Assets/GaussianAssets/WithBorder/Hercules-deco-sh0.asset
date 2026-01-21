@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: Hercules-deco-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 4368376
+  m_BoundsMin: {x: -17.272713, y: -4.139572, z: -16.778275}
+  m_BoundsMax: {x: 16.189503, y: 1.5114685, z: 18.523651}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: f2d8a931f62f20e5dd78708191891bd6
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: de872c2b1c5a6834eadf58f2f65d5d62, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 99cf3608238aaa74f814b0fc75c99275, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 49b4591f822761d46b24a6ebaa95846b, type: 3}
+  m_SHData: {fileID: 4900000, guid: 5116e65fc7fbd6f488d65e9146a97dd9, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

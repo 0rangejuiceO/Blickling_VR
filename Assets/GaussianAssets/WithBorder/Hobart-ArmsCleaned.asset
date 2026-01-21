@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: Hobart-ArmsCleaned
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 3740935
+  m_BoundsMin: {x: -14.956654, y: -3.6514406, z: -14.424199}
+  m_BoundsMax: {x: 14.230132, y: 1.3812376, z: 15.23272}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 4f71dfe4427887b057b26f5267a41775
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 817f2ee2d8d078a4b97f0539bd21c1e8, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 73112fb2205c58b489bce8cf0c5a434b, type: 3}
+  m_OtherData: {fileID: 4900000, guid: e4c32f0159f343941a824e063002f3d1, type: 3}
+  m_SHData: {fileID: 4900000, guid: 972c302606b3d0f41b9970e77595549b, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

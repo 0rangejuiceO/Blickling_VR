@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: GUSTUS-bumpy-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 1988368
+  m_BoundsMin: {x: -10.765537, y: -2.1369724, z: -10.372289}
+  m_BoundsMax: {x: 10.715927, y: 2.4975855, z: 11.138923}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 004c10fb8af0aaacce93af318e9affae
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: b9aead48b4f1c4c478ce160a81e78bbc, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 6301e4678911c6b4d8868c48474286f4, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 0a616363cb68d12458e46335cc98a9f8, type: 3}
+  m_SHData: {fileID: 4900000, guid: c360384fa77d5a6488a30e5416448f93, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

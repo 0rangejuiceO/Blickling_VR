@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: 'Deciet-slight[green]'
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 2205391
+  m_BoundsMin: {x: -15.976818, y: -4.0290437, z: -10.388284}
+  m_BoundsMax: {x: 7.5512958, y: 0.928889, z: 13.792866}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: bbc33a06bb72c26bde26d528b679139a
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: 8f65a2d62f5f79d4282aebf974c1b3f5, type: 3}
+  m_ColorData: {fileID: 4900000, guid: cdd99f0bdd5e8dc43ac7e6ca50d8752d, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 01c427c87ca806048989c74facdc5b64, type: 3}
+  m_SHData: {fileID: 4900000, guid: f8bf80520094ee949bfaddf7894a387c, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

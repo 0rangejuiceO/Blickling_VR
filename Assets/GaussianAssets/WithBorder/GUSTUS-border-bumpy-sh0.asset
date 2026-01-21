@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: GUSTUS-border-bumpy-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 2311658
+  m_BoundsMin: {x: -11.55341, y: -2.4369774, z: -10.852431}
+  m_BoundsMax: {x: 11.515066, y: 2.5853405, z: 11.824484}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 0571fcb40f10e1d25a0131f0603061b5
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: d31ff62268c32414c82285311b02b8a3, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 8c28fe04519820740b18c01458c3a603, type: 3}
+  m_OtherData: {fileID: 4900000, guid: 95bdcbafdb009e94ebd2e3e0e6abaa14, type: 3}
+  m_SHData: {fileID: 4900000, guid: b79de5f4122142f49953651d6f453422, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []
