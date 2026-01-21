@@ -13,7 +13,8 @@ public class NewPointOfInterest : MonoBehaviour
 {
 
     [Header("XR Interaction")]
-    [SerializeField] private XRBaseInteractable grabInteractable;
+    [SerializeField] private XRBaseInteractable[] grabInteractable;
+    [SerializeField] private XRBaseInteractable[] mapInteractable;
 
     [Header("Info Cards")]
     [SerializeField] private Sprite[] infoCards;
@@ -51,7 +52,9 @@ public class NewPointOfInterest : MonoBehaviour
 
     private void Awake()
     {
-        if (!grabInteractable) grabInteractable = GetComponent<XRGrabInteractable>();
+        if (grabInteractable.Length==0) grabInteractable[0] = GetComponent<XRGrabInteractable>();
+
+
     }
 
     private void Start()
@@ -62,13 +65,22 @@ public class NewPointOfInterest : MonoBehaviour
             preLoadMotif = true;
         }
 
-        grabInteractable.selectEntered.AddListener(OnSelectEntered);
+        for (int i = 0; i < grabInteractable.Length; i++)
+        {
+            grabInteractable[i].selectEntered.AddListener(OnSelectEntered);
+        }
+            
+        for (int i = 0; i < mapInteractable.Length; i++)
+        {
+            mapInteractable[i].selectEntered.AddListener(OnSelectEntered);
+        }
+            
 
         if (doDoTween)
         {
             pointOfInterest = Instantiate(motifPrefab, transform.position, Quaternion.identity);
 
-            poiPosition = grabInteractable.transform.position;
+            //poiPosition = grabInteractable.transform.position;
             poiPosition.y += 1f;
 
             pointOfInterest.transform.position = poiPosition;
@@ -195,7 +207,6 @@ public class NewPointOfInterest : MonoBehaviour
 
         Button uiCloseButtonBtn = uiCloseButton.GetComponent<Button>();
         uiCloseButtonBtn.onClick.RemoveAllListeners();
-        uiCloseButtonBtn.onClick.AddListener(ExitInspectionMode);
         if (preLoadMotif)
         {
             uiCloseButtonBtn.onClick.AddListener(hideMotifObject);
@@ -249,8 +260,6 @@ public class NewPointOfInterest : MonoBehaviour
             motif.transform.localRotation = Quaternion.identity;
             motif.transform.localScale = Vector3.one;
         }
-
-        EnterInspectionMode();
 
     }
 
