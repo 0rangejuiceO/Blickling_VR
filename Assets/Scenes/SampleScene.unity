@@ -29455,7 +29455,7 @@ MonoBehaviour:
   - {fileID: 1857524957}
   - {fileID: 1370710963}
   infoCards:
-  - {fileID: 2033189792, guid: 58f6effb46337e24db54bfa630c26c67, type: 3}
+  - {fileID: 21300000, guid: f239afcd05f43e24fbcf7128f48e8d2f, type: 3}
   uiElement: {fileID: 789070139}
   uiCard: {fileID: 1126585293}
   uiCloseButton: {fileID: 1405799585}

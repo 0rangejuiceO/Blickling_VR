@@ -1,12 +1,150 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\university\\final year project\\blickling_vr2026\\blicking_vr\\assets\\repositioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\repositioner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\university\\final year project\\blickling_vr2026\\blicking_vr\\assets\\newpointofinterest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\newpointofinterest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\university\\final year project\\blickling_vr2026\\blicking_vr\\assets\\joystickrotationdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\joystickrotationdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\university\\final year project\\blickling_vr2026\\blicking_vr\\assets\\vrjoystickhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\vrjoystickhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\university\\final year project\\blickling_vr2026\\blicking_vr\\assets\\quitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\quitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\university\\final year project\\blickling_vr2026\\blicking_vr\\assets\\poihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\poihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\university\\final year project\\blickling_vr2026\\blicking_vr\\assets\\confirmationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\confirmationmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|d:\\git\\university\\final year project\\blickling_vr2026\\blicking_vr\\assets\\scenereloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scenereloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Repositioner.cs",
+              "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\Repositioner.cs",
+              "RelativeDocumentMoniker": "Assets\\Repositioner.cs",
+              "ToolTip": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\Repositioner.cs",
+              "RelativeToolTip": "Assets\\Repositioner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:31:50.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewPointOfInterest.cs",
+              "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\NewPointOfInterest.cs",
+              "RelativeDocumentMoniker": "Assets\\NewPointOfInterest.cs",
+              "ToolTip": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\NewPointOfInterest.cs",
+              "RelativeToolTip": "Assets\\NewPointOfInterest.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAjwG8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T20:09:42.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "POIHandler.cs",
+              "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\POIHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\POIHandler.cs",
+              "ToolTip": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\POIHandler.cs",
+              "RelativeToolTip": "Assets\\POIHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T19:41:21.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuitGame.cs",
+              "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\QuitGame.cs",
+              "RelativeDocumentMoniker": "Assets\\QuitGame.cs",
+              "ToolTip": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\QuitGame.cs",
+              "RelativeToolTip": "Assets\\QuitGame.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T19:35:22.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SceneReloader.cs",
+              "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\SceneReloader.cs",
+              "RelativeDocumentMoniker": "Assets\\SceneReloader.cs",
+              "ToolTip": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\SceneReloader.cs",
+              "RelativeToolTip": "Assets\\SceneReloader.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T17:11:14.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VRJoystickHandle.cs",
+              "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\VRJoystickHandle.cs",
+              "RelativeDocumentMoniker": "Assets\\VRJoystickHandle.cs",
+              "ToolTip": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\VRJoystickHandle.cs",
+              "RelativeToolTip": "Assets\\VRJoystickHandle.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T18:05:59.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JoystickRotationDriver.cs",
+              "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\JoystickRotationDriver.cs",
+              "RelativeDocumentMoniker": "Assets\\JoystickRotationDriver.cs",
+              "ToolTip": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\JoystickRotationDriver.cs",
+              "RelativeToolTip": "Assets\\JoystickRotationDriver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T18:09:47.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConfirmationMenu.cs",
+              "DocumentMoniker": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\ConfirmationMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\ConfirmationMenu.cs",
+              "ToolTip": "D:\\Git\\University\\Final Year Project\\blickling_vr2026\\blicking_vr\\Assets\\ConfirmationMenu.cs",
+              "RelativeToolTip": "Assets\\ConfirmationMenu.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T17:39:15.167Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
