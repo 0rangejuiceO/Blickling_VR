@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: mysteryofgod-brush-deco-sh0
+  m_EditorClassIdentifier: GaussianSplatting::GaussianSplatting.Runtime.GaussianSplatAsset
+  m_FormatVersion: 20231020
+  m_SplatCount: 440883
+  m_BoundsMin: {x: -14.781555, y: -2.5196564, z: -17.68216}
+  m_BoundsMax: {x: 13.161323, y: 0.4649529, z: 10.391733}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: dc013974fb7446c374303cd39038f3b1
+  m_PosFormat: 0
+  m_ScaleFormat: 0
+  m_SHFormat: 0
+  m_ColorFormat: 0
+  m_PosData: {fileID: 4900000, guid: f604a1e41b2a22543b1c3ad96400fb4a, type: 3}
+  m_ColorData: {fileID: 4900000, guid: 80e2867fc2c0cbf4a94971a1ff830b49, type: 3}
+  m_OtherData: {fileID: 4900000, guid: b7ce86c9621b88d4fbc47c29683b810c, type: 3}
+  m_SHData: {fileID: 4900000, guid: 591c8bf83a46386408efd9dec413d064, type: 3}
+  m_ChunkData: {fileID: 0}
+  m_Cameras: []

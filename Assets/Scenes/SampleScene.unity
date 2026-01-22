@@ -12806,7 +12806,7 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 9035144934281696433, guid: eab4f0ac490f9e14e8e9db887a28111d, type: 3}
+  motifPrefab: {fileID: 9035144934281696433, guid: 7ca76898d15a2d845a7ad8a2d4999c35, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
@@ -29461,7 +29461,7 @@ MonoBehaviour:
   uiCloseButton: {fileID: 1405799585}
   uiNextPageButton: {fileID: 996131981}
   uiButtonBackground: {fileID: 1666387969}
-  motifPrefab: {fileID: 9035144934281696433, guid: 40ec73aaeb0cee04999262ef5ed3557f, type: 3}
+  motifPrefab: {fileID: 9035144934281696433, guid: 0d56a30c86410044889bb342d1f73fec, type: 3}
   moveDuration: 0.75
   rotateDuration: 0.4
   doDoTween: 0
